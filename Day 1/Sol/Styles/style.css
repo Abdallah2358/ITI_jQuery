@@ -1,0 +1,113 @@
+/* Nav Menu */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav>input {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* service menu */
+#btnSevices {
+    padding: 5px;
+    margin: 5px;
+
+}
+
+#men {
+    display: none;
+    position: absolute;
+    margin-left: 5px;
+    top: 42px;
+
+}
+
+#sevMenu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sevMenu>input {
+    width: 60.68px;
+}
+
+/* about sec */
+p {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    border: 10px;
+    border-style: double;
+}
+
+/* Images sec */
+#imgSec {
+    display: none;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+
+}
+
+#myImg {
+    margin-top: inherit;
+}
+
+#left,
+#right {
+    width: 50px;
+}
+
+/* complain */
+#compCont {
+    display: none;
+}
+
+#comp {
+    margin-top: 100px;
+    padding-left: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#comp>div {
+    display: flex;
+    justify-content: left;
+}
+
+#comp>div>input,
+#comp>div>span {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#comp>div>span {
+    font-weight: bolder;
+}
+
+#comp>textarea {
+    margin-right: auto;
+
+}
+
+#subCompl ,#backCompl{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 100px;
+}

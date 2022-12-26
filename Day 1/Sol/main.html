@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Styles/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <nav>
+        <input type="button" value="About" id="btnAbout">
+        <input type="button" value="Galary" id="btnGal">
+        <div style="display: flex;">
+            <input type="button" value="Sevices" id="btnSevices">
+            <div id="men">
+                <div id="sevMenu">
+                    <input type="button" value="Item 1" id="men1">
+                    <input type="button" value="Item 2" id="men2">
+                    <input type="button" value="Item 3" id="men3">
+                </div>
+            </div>
+
+        </div>
+
+        <input type="button" value="Complain" id="btnComplain">
+    </nav>
+    <p id="about">
+        A story about a Snow Man
+    </p>
+    <div id="imgSec">
+
+        <div id="imgContainer">
+            <img id="left" src="Images/left.png" alt="">
+            <div id="myC"> <img id="myImg" src="Images/1.jpg" alt=""> </div>
+            <img id="right" src="Images/right.png" alt="">
+        </div>
+    </div>
+
+    <div id="compCont">
+        <div id="comp" style="display: flex;">
+            <div >
+                <label></label>
+                <span></span>
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <span id="dName"></span>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <span id="dEmail"></span>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone">
+                <span id="dPhone"></span>
+            </div>
+
+            <textarea id="complain" cols="30" rows="5"></textarea>
+            <input type="button" value="Submit" id="subCompl">
+            <input type="button" value="Go Back" id="backCompl">
+        </div>
+    </div>
+    <script src="Libraries/jqueryDevMin.js"></script>
+    <script src="Scripts/gal.js"></script>
+    <script src="Scripts/script.js"></script>
+</body>
+
+</html>
